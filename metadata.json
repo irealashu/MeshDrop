@@ -1,0 +1,6 @@
+{
+  "name": "MeshDrop",
+  "description": "Zero-Router P2P Android Utility & ADB/File Bridge",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

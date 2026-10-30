@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Peer Mesh Connection Lines -->
+    <path
+        android:pathData="M32,36 L54,52 L76,36 M34,70 L54,54 L74,70"
+        android:strokeColor="#7C4DFF"
+        android:strokeWidth="2.2"
+        android:strokeAlpha="0.7"
+        android:strokeLineCap="round" />
+
+    <!-- Satellite Mesh Peer Nodes -->
+    <path
+        android:pathData="M32,32 A 4.5,4.5 0 1,0 32,41 A 4.5,4.5 0 1,0 32,32"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M76,32 A 4.5,4.5 0 1,0 76,41 A 4.5,4.5 0 1,0 76,32"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M34,66 A 4.5,4.5 0 1,0 34,75 A 4.5,4.5 0 1,0 34,66"
+        android:fillColor="#7C4DFF" />
+    <path
+        android:pathData="M74,66 A 4.5,4.5 0 1,0 74,75 A 4.5,4.5 0 1,0 74,66"
+        android:fillColor="#7C4DFF" />
+
+    <!-- Central Aerodynamic Luminous Drop Outer Glow -->
+    <path
+        android:pathData="M54,26 C43,39 37,49 37,59 C37,68.4 44.6,76 54,76 C63.4,76 71,68.4 71,59 C71,49 65,39 54,26 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#00E5FF">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="37"
+                android:startY="26"
+                android:endX="71"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00E5FF" />
+                <item android:offset="0.55" android:color="#3D7BFD" />
+                <item android:offset="1.0" android:color="#7C4DFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Core: Security Shield/Lock Emblem -->
+    <!-- Lock shackle -->
+    <path
+        android:pathData="M50,54 L50,50 C50,47.8 51.8,46 54,46 C56.2,46 58,47.8 58,50 L58,54"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round" />
+    <!-- Lock body -->
+    <path
+        android:pathData="M47,54 L61,54 C62.1,54 63,54.9 63,56 L63,64 C63,65.1 62.1,66 61,66 L47,66 C45.9,66 45,65.1 45,64 L45,56 C45,54.9 45.9,54 47,54 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Lock keyhole dot -->
+    <path
+        android:pathData="M54,58 A 1.4,1.4 0 1,0 54,60.8 A 1.4,1.4 0 1,0 54,58 Z"
+        android:fillColor="#0B0E17" />
+</vector>
